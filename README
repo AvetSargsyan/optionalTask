@@ -6,6 +6,7 @@
 
 // ------  Step 1 -------
 /*
+Your work should be done in new branch.
 Should be created array with objects. Each object contains keys/values from juristicions[] equal to its index and the first object from date[].
 For example:    bindedData[1] contains all data from jurisdictions[1] and date[0].
 
