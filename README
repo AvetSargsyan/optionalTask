@@ -1,0 +1,45 @@
+//See data.js file to understand the structure of given data
+// NOTE: Only methods are allowed to use. NO LOOPs(for(), for(in), for(of), while() ...)
+
+
+// -------------- TASK -------------------
+
+// ------  Step 1 -------
+/*
+Should be created array with objects. Each object contains keys/values from juristicions[] equal to its index and the first object from date[].
+For example:    bindedData[1] contains all data from jurisdictions[1] and date[0].
+
+Expected structure of objects of bindedData[]
+
+const bindedData = [{
+        name: ...
+        type:  ...
+        startDate: ...
+        endDate: ...
+        countryId: ...
+        countryName: ...
+        stateId: ...
+        stateName: ...
+        hasIndicator: ...
+        id: ...
+}]    // for each object from jurisdiction 1 object here should be created   (jurisdictions.length === bindedData.length)
+ */
+
+
+
+// ------  Step 2 -------
+/*
+Should be created array, which contains all values (NOT keys) from each object from bindedData[]. Consistency of values is essential.
+
+Expected structure of objects of dataToValidateWith[]
+
+const dataToValidateWith = [name, type, startDate, endDate, countryId, countryName, stateId, stateName, hasIndicator, id, name, type ... ]
+ */
+
+
+
+
+ // ------- Step 3 ------
+ /*
+ Check that  dataToValidateWith[] contains all values(in right order) from jurisdictions[] and date[]
+  */
